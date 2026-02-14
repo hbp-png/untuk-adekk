@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Adekk</title>
+    <style>
+        /* Heartbeat Animation */
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            20% { transform: scale(1.1); }
+            40% { transform: scale(1); }
+            60% { transform: scale(1.1); }
+            80% { transform: scale(1); }
+            100% { transform: scale(1); }
+        }
+        .heartbeat {
+            animation: heartbeat 1.5s infinite;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="heartbeat">Untuk Adekk</h1>
+    </header>
+    <section id="greeting">
+        <h2>Welcome to Your Greeting Card!</h2>
+    </section>
+    <section id="choices">
+        <h3>Kangen aku tidak?</h3>
+        <button>Iya</button>
+        <button>Tidak</button>
+    </section>
+    <section id="timeline">
+        <h3>Your Memories</h3>
+        <ul>
+            <li><img src="photo1.jpg" alt="Photo 1"></li>
+            <li><img src="photo2.jpg" alt="Photo 2"></li>
+            <li><img src="photo3.jpg" alt="Photo 3"></li>
+            <li><img src="photo4.jpg" alt="Photo 4"></li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
